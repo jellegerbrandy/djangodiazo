@@ -3,7 +3,8 @@ djangodiazo
 
 Integrate Diazo with Django
 
-A very light wrapper around that applies DiazoMiddleware WSGI class the the django application
+A very light wrapper around that applies DiazoMiddleware WSGI class to the django application object.
+
 
 
 Installation
