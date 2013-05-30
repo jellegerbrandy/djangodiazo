@@ -5,16 +5,16 @@ VERSION = '0.1'
 
 REQUIREMENTS = (
     'django>=1.4',
-    'diazo',
-    'webob',
-    'repoze.xmliter',
+    'diazo==1.0',
+    'webob==1.2.3',
+    'repoze.xmliter==0.5',
 )
 TEST_REQUIREMENTS = (
 )
 
 
 setup(
-    name="djangodiazo",
+    name="django-diazo",
     version=VERSION,
     author="Jelle Gerbrandy",
     description="Easy deployment of Diazo theming in django",
@@ -26,7 +26,7 @@ setup(
     tests_require=TEST_REQUIREMENTS,
 #     test_suite='runtests.runtests',
     zip_safe=False,
-    classifiers = [
+    classifiers=[
         "Development Status :: 4 - Beta",
         "Environment :: Web Environment",
         "Framework :: Django",
