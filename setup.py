@@ -5,9 +5,12 @@ VERSION = '0.1'
 
 REQUIREMENTS = (
     'django>=1.4',
-    'diazo==1.0',
-    'webob==1.2.3',
-    'repoze.xmliter==0.5',
+    'diazo',
+    'webob',
+     'repoze.xmliter==0.5',
+#    'repoze.xmliter',
+#     'diazo==1.0',
+#     'webob==1.2.3',
 )
 TEST_REQUIREMENTS = (
 )
